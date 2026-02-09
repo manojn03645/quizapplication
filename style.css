@@ -1,0 +1,37 @@
+body{
+font-family: Arial;
+background:#f2f2f2;
+display:flex;
+justify-content:center;
+margin-top:50px;
+}
+
+.quiz-container{
+background:white;
+padding:20px;
+width:350px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+text-align:center;
+}
+
+#options button{
+display:block;
+width:100%;
+margin:8px 0;
+padding:10px;
+cursor:pointer;
+}
+
+.correct{
+background:lightgreen;
+}
+
+.wrong{
+background:#ff9999;
+}
+
+#timer{
+font-weight:bold;
+margin-bottom:10px;
+}
